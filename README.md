@@ -103,4 +103,10 @@ Semakin besar nilai `n`, semakin banyak proses yang dilakukan oleh program.
 
    Bagian yang paling banyak melakukan operasi adalah loop dalam karena berada di dalam loop luar. Setiap loop luar berjalan, loop dalam akan berjalan sebanyak `n` kali. Oleh karena itu, jumlah eksekusi pada bagian tersebut menjadi `n²`.
 
+Kesalahan Nested Loop yang Ditemukan
+
+Salah satu kesalahan yang perlu diperhatikan adalah posisi total_baris. Jika total_baris = 0 diletakkan sebelum loop luar, maka jumlah dari baris sebelumnya akan ikut terbawa ke baris berikutnya.
+
+Perbaikannya adalah meletakkan total_baris = 0 di dalam loop luar dan sebelum loop dalam dimulai. Dengan begitu, setiap baris memiliki nilai awal 0 dan jumlah setiap baris dapat dihitung secara terpisah.
+
 Dari latihan ini saya memahami bahwa posisi variabel dalam nested loop perlu diperhatikan. Saya juga memahami perbedaan antara akumulator untuk jumlah per baris dan jumlah keseluruhan, serta counter untuk menghitung banyak kejadian yang memenuhi kondisi. Selain itu, saya perlu memperhatikan indentasi karena pada Python indentasi menentukan bagian dari loop dan kondisi.
