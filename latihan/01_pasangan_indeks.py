@@ -1,7 +1,3 @@
-# Latihan 1 - Pasangan Indeks
-# Loop luar mengatur nilai i
-# Loop dalam mengatur nilai j
-# Counter menghitung banyak pasangan
 
 count = 0
 

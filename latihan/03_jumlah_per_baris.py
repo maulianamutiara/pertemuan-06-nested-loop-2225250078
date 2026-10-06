@@ -1,7 +1,3 @@
-# Latihan 3 - Jumlah Per Baris
-# Loop luar menentukan baris
-# total_baris direset setiap baris
-# Loop dalam menghitung i * j
 
 for i in range(1, 5):
     total_baris = 0

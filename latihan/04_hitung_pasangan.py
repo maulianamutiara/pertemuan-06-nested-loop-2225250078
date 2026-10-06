@@ -1,5 +1,3 @@
-# Latihan 4 - Menghitung Pasangan
-
 n = int(input("n: "))
 
 count = 0
